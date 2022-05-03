@@ -1,3 +1,45 @@
+body{
+    background-color:#22331f;
+}
+header{
+    margin: 10px 10px 5px;
+    vertical-align: center;
+    display:inline-block;
+    color: aliceblue;
+}
+h1{
+    font-family: monospace;
+    font-weight:bolder;
+    font-size: 30px;
+    display:inline-block ;
+}
+main{
+    vertical-align: baseline;
+    display: inline-block;
+    
+}
+ul li{
+    text-decoration: none;
+    font-family: monospace;
+    font-weight:bolder;
+    font-size: 25px;
+    margin: 15px;
+    display: inline-block;
+}
+a{ color: #ffff;
+    text-decoration: none;
+}
+h2{
+    font-family: monospace;
+    font-weight:bolder;
+    margin: 10px 10px 5px;
+    font-size: 35px;
+    color:#ffff;
+}
+
+.carros_suvs{
+    margin-left: 10px;
+}
 .renegade_tag{
     position:relative;
     top:0px; 
@@ -36,7 +78,6 @@
     top:110px; 
     left:6px;
 }
-
 #bmw_capa{
     display: inline-block;
     width: 200px;
@@ -59,7 +100,7 @@
     left:195px;
 }
 
-.mercedes_div{
+.mercedes_logo{
     width: 110px;
     position:relative;
     top: 330px;
@@ -74,8 +115,7 @@
     object-position: 69%;
     border-radius: 50px;
 }
-
-.mercedes_logo{
+.mercedes_div{
     position:absolute; 
     top:110px;
     left:6px;
