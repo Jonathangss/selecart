@@ -1,25 +1,72 @@
-main{display: inline;}
-#bmwx5_capa{
-    display: inline-block;
-    width: 200px;
-    height: 500px;
-    object-fit: cover;
-    object-position: 84%;
-    border-radius: 50px;
+.renegade_tag{
+    position:relative;
+    top:0px; 
+    left:0px;
 }
-.logobmw{width: 20px;
-    z-index: 10;}
+.renegade_div{
+    position:absolute; 
+    top:110px; 
+    left:6px;
+}
 #renegade_capa{
     position: absolute;
     width: 200px;
     height: 500px;
     object-fit: cover;
-    object-position: 84%;
+    object-position: 81%;
     border-radius: 50px;
 }
-.logo_jeep{
-   
-    position: relative;
+.renegade_logo{
+    position:relative;
+    top: 345px;
+    left: 58px;
+    background: url("index.html");
+}
+.bmw_tag{
+    position:relative; 
+    bottom:140px; 
+    left: 195px;
+}
+.bmw_div{
+    position:absolute; 
+    top:110px; 
+    left:6px;
+}
+#bmw_capa{
+    display: inline-block;
+    width: 200px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 90%;
+    border-radius: 50px;
+} 
+ 
+.bmw_logo{
+    width: 50px;
+    position:relative;
+    top: 330px;
+    left:68px;  
+    background: url("index.html");
+}
+
+.logomercedes{
+    width: 110px;
+    position:relative;
+    top: 330px;
+    left: 40px;  
+    background: url("index.html");
+}
+
+.tag_mercedes{
+    position:relative; 
+    bottom:165px; 
+    left:195px;
+}
+
+.mercedes_logo{
+    position:absolute; 
+    top:110px;
+    left:6px;
 }
 
 #mercedes_capa{
