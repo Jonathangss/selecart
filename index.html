@@ -4,29 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Select Car</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">   
+    <title>Selecart</title>
 </head>
 <body>
     <header>
-        <h1>Select Car</h1>
+        <div class="caixa">
+            <a href="index.html"></a>
+            <a href="index.html"> <p id="titulo" >Selecart</p></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html" target="_self">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <h2>Carros SUV</h2>
-    
-    <div class="renegade_tag">
-        <img id="renegade_capa" src="Carros/renegade_capa.jpg">
-        <div class="renegade_div">
-        <a href="#"> <img class="renegade_logo" src="Carros/logo/logo_jeep.png"></a>
-    
-    <div class="bmw_tag">
-        <img id="bmw_capa" src="Carros/bmwx6.jpg">
-        <div class="bmw_div">
-        <a href="#"><img class="bmw_logo" src="Carros/logo/bmw-logo.png"></a>
-       
-    <div class="mercedes_tag">
-        <img id="mercedes_capa" src="Carros/mercedez suv.jpeg">
-        <div class="mercedes_div">
-        <a href="#"> <img class="logomercedes" src="Carros/logo/logomercedes.png"></a>
+    <div class="content">
+        <div class="slideshow">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            
+            <div class="slide s1">
+                <img src="Carros/mercedez suv.jpeg" alt="mercedez-suv">
+            </div>
+                
+            <div class="slide">
+                    <img src="Carros/renegade.jpg" alt="jeep-renegade">
+            </div>
+                
+            <div class="slide">
+                    <img src="Carros/bmwxseries6.jpg" alt="bmw-x6">
+            </div>  
+        </div>
+        <div class="nav">
+            <label class="barra" for="slide1"></label>
+            <label class="barra" for="slide2"></label>
+            <label class="barra" for="slide3"></label>
+        </div>
+    </div>
 </body>
 </html>
-
