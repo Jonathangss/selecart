@@ -1,4 +1,8 @@
 body{
+   /*  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
    background: linear-gradient(72deg, #ccc 1%, #092a49 99%);
 }
 header {
@@ -54,89 +58,6 @@ nav a:hover{
     color: rgb(75, 158, 158);
     font-size: 17px;
 }
-
-
-/* .renegade_tag{
-    position:relative;
-    top:0px; 
-    left:0px;
-}
-
-.renegade_div{
-    position:absolute; 
-    top:110px; 
-    left:6px;
-}
-
-#renegade_capa{
-    position: absolute;
-    width: 200px;
-    height: 500px;
-    object-fit: cover;
-    object-position: 81%;
-    border-radius: 50px;
-}
-
-.renegade_logo{
-    position:relative;
-    top: 345px;
-    left: 58px;
-}
-
-.bmw_tag{
-    position:relative; 
-    bottom:140px; 
-    left: 195px;
-}
-
-.bmw_div{
-    position:absolute; 
-    top:110px; 
-    left:6px;
-}
-#bmw_capa{
-    display: inline-block;
-    width: 200px;
-    height: 500px;
-    object-fit: cover;
-    object-position: 90%;
-    border-radius: 50px;
-} 
-
-.bmw_logo{
-    width: 50px;
-    position:relative;
-    top: 330px;
-    left:68px;  
-}
-
-.mercedes_tag{
-    position:relative; 
-    bottom:165px; 
-    left:195px;
-}
-
-.mercedes_logo{
-    width: 110px;
-    position:relative;
-    top: 330px;
-    left: 40px;
-}
-
-#mercedes_capa{
-    display: inline-block;
-    width: 200px;
-    height: 500px;
-    object-fit: cover;
-    object-position: 69%;
-    border-radius: 50px;
-}
-.mercedes_div{
-    position:absolute; 
-    top:110px;
-    left:6px;
-}
- */
  .content{
      height: 620px;
      width: 980px;
@@ -192,4 +113,57 @@ input{
 }
 #slide3:checked ~ .s1{
     margin-left: -66.68%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 980px;
+}
+
+.car1{
+    margin-left: 26%;
+    margin-top: 65%;
+    width: 250px;
+    height: 500px;
+    background: url(carros/bmwx6.jpg) 87% 20%;
+    transition: width 2s;
+    float: left;
+}
+
+.car1:hover{
+    
+    width: 500px;
+    height: 500px;
+}
+.car2{
+    margin-left: 80%;
+    margin-top:0;
+    width: 250px;
+    height: 500px;
+    background: url(carros/renegade.jpg) 87% 20%;
+    transition: width 2s;
+    float: left;
+}
+.car2:hover{
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+.car3{
+    margin-left: 26%;
+    margin-top:0;
+    width: 250px;
+    height: 500px;
+    background: url(carros/mercedez\ suv.jpeg) 87% 20%;
+    transition: width 2s;
+    float: left;
+}
+.car3:hover{
+    position: relative;
+    width: 500px;
+    height: 500px;
 }
