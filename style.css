@@ -1,15 +1,17 @@
 body{
-   /*  display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
    background: linear-gradient(72deg, #ccc 1%, #092a49 99%);
 }
 header {
+    width: 100%;
     padding: 20px 0;
     vertical-align: middle;
     background-color:black;
     margin-bottom:  2px;
+    flex-wrap: wrap;
 }
 .caixa{
     margin: 0 auto;
@@ -116,54 +118,45 @@ input{
 }
 
 .container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    width: 980px;
+   display: flex;
+   width: 980px;
+   justify-content: center;
 }
 
 .car1{
-    margin-left: 26%;
-    margin-top: 65%;
-    width: 250px;
+    border-bottom-left-radius: 40px;
+    flex:1;
     height: 500px;
-    background: url(carros/bmwx6.jpg) 87% 20%;
-    transition: width 2s;
-    float: left;
+    background: url(carros/bmwx6.jpg) 87% 50%;
+    transition:  2s;
+   
 }
 
 .car1:hover{
-    
-    width: 500px;
+    flex:2;
     height: 500px;
 }
 .car2{
-    margin-left: 80%;
-    margin-top:0;
-    width: 250px;
+  
+    flex:1;
     height: 500px;
-    background: url(carros/renegade.jpg) 87% 20%;
-    transition: width 2s;
-    float: left;
+    background: url(carros/renegade.jpg) 89% 50%;
+    transition:  2s;
+   
 }
 .car2:hover{
-    position: relative;
-    width: 500px;
+    flex:2;
     height: 500px;
 }
 .car3{
-    margin-left: 26%;
-    margin-top:0;
-    width: 250px;
+    border-bottom-right-radius: 40px;
+    flex:1;
     height: 500px;
-    background: url(carros/mercedez\ suv.jpeg) 87% 20%;
-    transition: width 2s;
-    float: left;
+    background: url(carros/mercedez\ suv.jpeg) 81% 50%;
+    transition:  2s;
+   
 }
 .car3:hover{
-    position: relative;
-    width: 500px;
+    flex:2;
     height: 500px;
 }
